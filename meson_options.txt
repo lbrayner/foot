@@ -24,3 +24,6 @@ option('systemd-units-dir', type: 'string', value: '',
 
 option('default-utempter-path', type: 'string', value: '',
        description: 'Default path to utempter helper binary. Default: auto-detect')
+
+option('ext-underline', type: 'boolean', value: true,
+      description: 'Enable underline styles & colors from xterm-kitty')
